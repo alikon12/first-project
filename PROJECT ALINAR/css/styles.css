@@ -1,0 +1,112 @@
+
+
+body {
+    background-color: #97c3f5;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0px;
+
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  .welcome {
+  font-weight: bold;
+  }
+
+  .header .search-form{
+    position: absolute;
+    top: 120%; right: 9%;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform-origin: top;
+  }
+
+  .header .search-form.active{
+    transform: scaleY(1);
+  }
+
+  .header .search-form input{
+    font-size: 1.6rem;
+    color:#ececf0;
+    text-transform: none;
+}
+
+.header .search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color:#111113;
+}
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+
+ nav ul li {
+  display: inline;
+  margin-right: 50px;
+ }
+  .about p{
+  border: 2px;
+  margin-top: 30px;
+  margin-right: 750px;
+  margin-left: 10px;
+  display: inline-block
+  }
+
+  .img {
+  display: inline-block
+
+  }
+
+  .header .content p{
+    border: 2px;
+    margin: 50px;
+  }
+
+  .culture {
+  background-color: rgb(96, 144, 202);
+  display: inline-block
+  width= 370px;
+  }
+  
+
+  .socials div {
+    height: 100%;
+    width: 90%;
+    border-radius: 0.5em;
+    box-shadow: 1.2rem 1.2rem 2.4rem rgba(43, 161, 201, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .socials div p {
+    font-size: 20px;
+    margin: 2% 2% 2% 2%;
+  }
+  
+  .contact ul {
+    height: 100%;
+    width: 30%;
+    border-radius: 0.5em;
+    box-shadow: 1.2rem 1.2rem 2.4rem rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+  }
+  
+  .contact ul li {
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+  }
+  .contact ul li:first-child {
+    padding-top: 20px;
+  }
+
+
+ 
